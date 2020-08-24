@@ -183,7 +183,6 @@ a {
 .nav-list-bottom {
     display: flex;
     justify-content: right;
-    margin-right: 0rem;
 }
 
 .nav-list-bottom a {

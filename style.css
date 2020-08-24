@@ -355,7 +355,6 @@ section.volunteer {
 .nav-list-bottom {
     display: flex;
     justify-content: right;
-    margin-right: 6rem;
 }
 
 .nav-list-bottom a {
