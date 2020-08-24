@@ -124,7 +124,7 @@ a {
 
 .box {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -183,7 +183,7 @@ a {
 .nav-list-bottom {
     display: flex;
     justify-content: right;
-    margin-right: 6rem;
+    margin-right: 0rem;
 }
 
 .nav-list-bottom a {
