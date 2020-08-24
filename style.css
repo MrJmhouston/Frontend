@@ -1,0 +1,381 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&family=Yesteryear&display=swap');
+
+/* end font import */
+
+/* start global styles */
+* {
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;
+}
+
+.page-container {
+    margin: 0 2rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: .03rem .01rem 5rem .3rem rgba(33, 95, 4, 0.836);
+}
+
+.page-center {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+section {
+    margin: 0rem 4.5rem 0rem 4.5rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+/*  end global styles */
+
+/* start navigation styles */
+.logo {
+    font-family: 'Yesteryear', cursive;
+    font-size: 2.5rem;
+    flex: 1 1 auto;
+    margin-left: 4.5rem;
+    color: rgb(157, 187, 144);
+    text-shadow: .1rem .2rem .5rem rgb(0, 0, 0);
+    letter-spacing: .1rem;
+}
+
+.nav-bar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 1;
+    height: 5rem;
+    transition: all 800ms cubic-bezier(.01, 0, .0, 1.05);
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(151, 182, 135));
+}
+
+.nav-list {
+    display: flex;
+    justify-content: right;
+    margin-right: 6rem;
+}
+
+.nav-list a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 2rem;
+    color: white;
+    text-shadow: .1rem .2rem .5rem black;
+    letter-spacing: .2rem;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    font-size: 2.1rem;
+     -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.678); */
+ }  
+/* end navigation styles */
+
+/* start header styles */
+header {
+    height: 100vh;
+    margin-top: 5rem;
+    background: url('images/replate.jpg') no-repeat center fixed;
+    background-size: cover;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.landing-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 14rem;
+    color: white;
+    text-shadow: .1rem .2rem .5rem black;
+}
+
+.landing-text h1 {
+    font-family: 'Yesteryear', cursive;
+    font-size: 10rem;
+    color:rgb(151, 182, 135);
+}
+
+.landing-text h6 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+/*  end header styles */
+
+/* start donate styles */
+section.donate {
+    background: url('images/wood.jpg') no-repeat center fixed;
+    background-size: cover;
+    margin: .5rem .5rem 0rem .5rem;
+}
+
+.donate-heading h2 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    margin: 0rem 0rem .5rem 0rem;
+    letter-spacing: .5rem;
+}
+
+.donate-heading h6 {
+    font-size: 2.5rem;
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+.donate-heading p {
+    font-size: 1.5rem;
+}
+
+.donate-heading {
+    margin-bottom: 3rem;
+    color: white;
+    text-shadow: .1rem .2rem .5rem black;
+}
+
+.donate-store,
+.donate-restaurant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    color: white;
+    text-shadow: .1rem .2rem .5rem black;
+}
+
+.donate-individual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .2rem;
+    color: white;
+    text-shadow: .1rem .2rem .5rem black;
+}
+
+.donate-store,
+.donate-individual {
+    background: linear-gradient(to right, transparent, #000000);
+}
+
+.donate-restaurant {
+    background: linear-gradient(to left, transparent, #000000);
+}
+
+.donate-store h2,
+.donate-restaurant h2,
+.donate-individual h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.donate-store h6,
+.donate-restaurant h6,
+.donate-individual h6 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.donate-store p,
+.donate-restaurant p,
+.donate-individual p {
+    font-size: 1rem;
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+#donate-img1,
+#donate-img2 {
+    margin: 0rem 3rem 0rem 3rem;
+    box-shadow: .03rem .01rem 5rem .3rem;
+}
+
+#donate-img3 {
+    margin: 0rem 3rem 1rem 3rem;
+    box-shadow: .03rem .01rem 5rem .3rem;
+}
+
+#donate-img3 {
+    height: 18rem;
+    border-radius: 2rem;
+}
+
+#donate-img1,
+#donate-img2 {
+    height: 16rem;
+    border-radius: 2rem;
+}
+
+.sign-up {
+    background: linear-gradient(to right, transparent, rgb(151, 182, 135));;
+    border: rem solid white;
+    border-radius: 1.5rem;
+    color: white;
+    padding: .7rem .7rem .7rem .7rem;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin: 2rem 0rem 0rem 0rem;
+    cursor: pointer;
+}
+
+/* end donate styles */
+
+/* start volunteer styles */
+
+
+section.volunteer {
+    background: url('images/food-volunteer3.jpg') no-repeat center fixed;
+    background-size: cover;
+    margin: .5rem .5rem .5rem .5rem;
+}
+
+ #volunteer-img1,
+ #volunteer-img2 {
+    height: 20rem;
+    margin: 3rem 2rem 4rem 2rem;
+    border-radius: 2rem;
+    box-shadow: .01rem .01rem 2rem .1rem;
+}
+
+.volunteer-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.volunteer-description h2 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    padding-top: 3rem;
+    text-shadow: .1rem .2rem .5rem white;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    letter-spacing: .5rem;
+}
+
+.volunteer-description h6 {
+    font-size: 2rem;
+    text-shadow: .1rem .2rem .5rem white;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.volunteer-description p {
+    width: 30rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.vdh {
+    margin: 2rem 0rem 2rem 0rem;
+    box-shadow: .01rem .01rem 2rem .1rem;
+    border: .2rem solid black;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    background: linear-gradient(to right, transparent, rgb(151, 182, 135));
+}
+
+.vdp {
+    box-shadow: .01rem .01rem 2rem .1rem;
+    border: .2rem solid black;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+/* end volunteer styles */
+
+/* start bottom nav styles */
+ .logo-bottom {
+    font-family: 'Yesteryear', cursive;
+    font-size: 2.5rem;
+    flex: 1 1 auto;
+    color: rgb(157, 187, 144);
+    text-shadow: .1rem .2rem .5rem rgb(0, 0, 0);
+    letter-spacing: .1rem;
+    padding: 0rem 0rem 0rem 50rem;
+}
+
+.nav-bar-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+    height: 5rem;
+    transition: all 800ms cubic-bezier(.01, 0, .0, 1.05);
+    background: linear-gradient(to left, rgb(255, 255, 255), rgb(151, 182, 135));
+}
+
+.nav-list-bottom {
+    display: flex;
+    justify-content: right;
+    margin-right: 6rem;
+}
+
+.nav-list-bottom a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 2rem;
+    color: white;
+    text-shadow: .1rem .2rem .5rem black;
+    letter-spacing: .2rem;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    font-size: 2.1rem;
+     -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.678); */
+ }
+/* end bottom nav styles */
+
+/* start footer styles */
+.copyright {
+    text-align: center;
+    color: white;
+    background-color: rgba(33, 95, 4, 0.438);
+    font-size: 1rem;
+    padding: .5rem .5rem;
+    font-family: initial;
+}
+
+
+/* end footer styles */
