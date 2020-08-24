@@ -237,7 +237,7 @@ section.donate {
 }
 
 .sign-up {
-    background: linear-gradient(to right, transparent, rgb(151, 182, 135));;
+    background: linear-gradient(to right, transparent, rgb(151, 182, 135));
     border: rem solid white;
     border-radius: 1.5rem;
     color: white;
@@ -313,6 +313,16 @@ section.volunteer {
     box-sizing: border-box;
     border-radius: 1rem;
     background-color: rgba(255, 255, 255, 0.74);
+}
+
+.vdp .button-signup {
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+.vdp .sign-up {
+    margin: -2rem 0rem 1rem 0rem;
+    background: linear-gradient(to right, black, rgb(151, 182, 135));
 }
 
 /* end volunteer styles */

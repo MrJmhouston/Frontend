@@ -37,11 +37,24 @@
             </div>
             <div class="page-container">
 
-                <form action="/action_page.php" style="border:1px solid #ccc">
+                <form action="" style="border:1px solid #ccc">
                     <div class="container">
                         <h1>Sign Up</h1>
                         <p>Please fill in this form to create a <strong> "restaurant"</strong> account.</p>
                         <hr>
+
+                        <label for="name"><b>Full Name</b></label>
+                        <input type="text" placeholder="Enter Name" name="name" required>
+
+                        <label for="name"><b>Business Name</b></label>
+                        <input type="text" placeholder="Enter Name" name="name" required>
+
+                        <label for="address"><b>Business Address</b></label>
+                        <input type="text" placeholder="Enter Business Address" name="address" required>
+
+                        <label for="phone">Contact Phone Number:</label>
+                        <input type="tel" placeholder="(000)000-0000" id="phone" name="phone" 
+                        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
 
                         <label for="email"><b>Email</b></label>
                         <input type="text" placeholder="Enter Email" name="email" required>
